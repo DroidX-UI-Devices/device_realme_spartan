@@ -1,2 +1,6 @@
 # Display
 persist.sys.brightness.low.gamma=true
+
+# Cherish Maintainer
+ro.cherish.maintainer=H A R I P R A K A S H
+
