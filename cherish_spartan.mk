@@ -14,6 +14,9 @@ $(call inherit-product, device/realme/spartan/device.mk)
 # Inherit some common Cherish OS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+# Cherish
+CHERISH_BUILD_TYPE := Official
+
 PRODUCT_NAME := cherish_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
