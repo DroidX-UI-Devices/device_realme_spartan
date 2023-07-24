@@ -11,13 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/realme/spartan/device.mk)
 
-# Inherit some common Cherish OS stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common DroidX-UI  stuff.
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
-# Cherish
-CHERISH_BUILD_TYPE := Official
-
-PRODUCT_NAME := cherish_spartan
+PRODUCT_NAME := droidx_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
