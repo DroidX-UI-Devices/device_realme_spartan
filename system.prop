@@ -3,3 +3,6 @@ persist.sys.brightness.low.gamma=true
 
 # DroidX-UI Maintainer
 ro.droidx.maintainer=H A R I P R A K A S H
+
+# Logs
+persist.log.tag.OpenGLRenderer=S
