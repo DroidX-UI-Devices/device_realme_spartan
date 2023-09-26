@@ -1,5 +1,14 @@
 <compatibility-matrix version="4.0" type="framework">
     <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.0::IDms/default</fqname>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>android.hardware.biometrics.fingerprint</name>
         <version>2.3</version>
         <interface>

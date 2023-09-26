@@ -1,6 +1,51 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
 ## from RMX3371_11_C.07.
 
+# Moto Dolby
+system/app/MotoSignatureApp/MotoSignatureApp.apk
+system/etc/audio_effects.conf
+system/etc/permissions/com.motorola.frameworks.core.addon.xml
+system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/com.motorola.software.dolbyui.xml
+system/etc/permissions/moto-checkin.xml
+system/etc/permissions/moto-settings.xml
+system/etc/permissions/moto.xml
+system/etc/permissions/privapp-com.dolby.daxservice.xml
+system/etc/permissions/privapp-com.motorola.android.providers.settings.xml
+system/etc/permissions/privapp-com.motorola.dolby.dolbyui.xml
+system/etc/sysconfig/config-com.dolby.daxservice.xml
+system/etc/sysconfig/config-com.motorola.android.providers.settings.xml
+system/etc/sysconfig/config-com.motorola.dolby.dolbyui.xml
+system/etc/sysconfig/config-com.motorola.motosignature.app.xml
+system/framework/com.motorola.frameworks.core.addon.jar
+system/framework/com.motorola.motosignature.jar
+system/framework/moto-checkin.jar
+system/framework/moto-settings.jar
+system/framework/moto.jar
+system/priv-app/daxService/daxService.apk
+system/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk
+system/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libstagefright_soft_ac4dec.so
+vendor/lib64/libstagefright_soft_ddpdec.so
+vendor/lib64/libstagefrightdolby.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
 # ACDBs
 odm/etc/acdbdata/Bluetooth_cal.acdb
 odm/etc/acdbdata/General_cal.acdb
